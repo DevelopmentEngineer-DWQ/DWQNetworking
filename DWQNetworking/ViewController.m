@@ -17,8 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     /*
-     DWQNetworking文件夹包含了AFNetworking的3.0版本，已经适配https；
+     DWQNetworking文件夹包含了AFNetworking的3.1.0版本，已经适配https；
      包含了多年工作封装的分类，扩展。
      
     使用方法，将DWQNetworking文件夹拖入工程中然后[在pch文件中引入头文件DWQNetworking.h]
@@ -43,7 +44,9 @@
      NSData *data1=[mid dataUsingEncoding:NSUTF8StringEncoding];
      
      [formData appendPartWithFormData:data1 name:@"member_id"];
-
+     其中：
+     mid 是修改方法传过来的参数值
+     member_id是参数的key
     */
 
 

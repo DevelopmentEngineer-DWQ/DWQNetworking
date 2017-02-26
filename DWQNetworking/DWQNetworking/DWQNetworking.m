@@ -192,7 +192,7 @@ DWQSingletonM(DWQNetworking)// 单例实现
         
         if (progress)
         {
-            progress(uploadProgress); // HDLog(@"%lf", 1.0 * uploadProgress.completedUnitCount / uploadProgress.totalUnitCount);
+            progress(uploadProgress); // DWQLog(@"%lf", 1.0 * uploadProgress.completedUnitCount / uploadProgress.totalUnitCount);
         }
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
