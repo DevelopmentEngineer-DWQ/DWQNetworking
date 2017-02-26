@@ -1,10 +1,10 @@
 # DWQNetworking
-一款基于AFNetworking3.X版本封装的超级强大的网络请求工具
+一款基于AFNetworking3.1.0版本封装的超级强大的网络请求工具
  ![(logo)](http://chuantu.biz/t5/47/1487062141x1904247604.png)
 
 ##使用方法
- /*
-     DWQNetworking文件夹包含了AFNetworking的3.0版本，已经适配https；
+ 
+     DWQNetworking文件夹包含了AFNetworking的3.1.0版本，已经适配https；
      包含了多年工作封装的分类，扩展。
      
     使用方法，将DWQNetworking文件夹拖入工程中然后[在pch文件中引入头文件DWQNetworking.h]
